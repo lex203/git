@@ -14,6 +14,14 @@ dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter'
     implementation("org.seleniumhq.selenium:selenium-java:4.32.0")
     implementation("io.cucumber:cucumber-java:7.22.1")
+    implementation 'net.serenity-bdd:serenity-screenplay-webdriver:4.2.22'
+    implementation 'org.seleniumhq.selenium:selenium-java:4.17.0'  // ✅ Controla Chrome, Firefox, etc.
+
+    // 🔥 Serenity BDD (Estructura y reportes de pruebas)
+    implementation 'net.serenity-bdd:serenity-core:4.2.22'  // ✅ Núcleo de Serenity (maneja pruebas y reportes)
+    implementation 'net.serenity-bdd:serenity-screenplay:4.2.22'  // ✅ Permite escribir pruebas con Screenplay
+    implementation 'net.serenity-bdd:serenity-ensure:4.2.22'  //
+
 }
 
 test {
